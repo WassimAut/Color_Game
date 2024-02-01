@@ -1,0 +1,74 @@
+body{
+margin:0;
+padding:0;
+background-color:#222222;
+}
+
+h1{
+text-align:center;
+color:white;
+font-size:50px;
+text-transform:uppercase;
+background-color:orange;
+margin:0;
+padding:10px 0;
+}
+#colors-display{
+display:block;
+font-size:50px;
+}
+
+.container{
+width:600px;
+margin:0 auto;
+padding-top: 20px;
+}
+
+.square{
+width:30%;
+background-color:purple;
+float:left;
+transition:background 0.5s;
+padding-bottom:25%;
+margin:1.66%;
+}
+
+.stripe{
+background:white;
+height:30px;
+color:black;
+text-align:center;
+}
+
+#message{
+text-transform:uppercase;
+color: #2C8E99;
+display: inline-block;
+width: 20%;
+}
+
+button{
+color: #2C8E99;
+font-family: "Raleway", Sans-serif;
+text-transform: uppercase;
+font-size:20px;
+background-color:white;
+border:0px;
+letter-spacing:1px;
+transition:all 0.3s;
+padding:3px;
+}
+
+button:hover{
+color:white;
+background-color: #2C8E99;
+}
+
+.selected{
+background-color:#2C8E99;
+color:white;
+}
+
+.square{
+border-radius:20%;
+}
